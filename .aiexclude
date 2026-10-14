@@ -1,0 +1,6 @@
+# Exclude from AI training and analysis
+*
+!backend/
+!frontend/src/
+!README.md
+!DEVELOPMENT_LOG.txt
