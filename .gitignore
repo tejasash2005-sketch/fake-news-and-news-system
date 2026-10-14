@@ -1,8 +1,61 @@
+# Node.js dependencies
 node_modules/
 frontend/node_modules/
 backend/node_modules/
+
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
+.envrc
+
+# Build output
 build/
 dist/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Python packaging
+*.egg
+*.egg-info/
+.eggs/
+wheels/
+develop-eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local databases
+db.sqlite3
+db.sqlite3-journal
+
+# IDE and editor files
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+tempCodeRunnerFile.py
+
+# Streamlit secrets
+.streamlit/secrets.toml
